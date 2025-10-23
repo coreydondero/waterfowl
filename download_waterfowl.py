@@ -2,7 +2,7 @@ from arcgis.gis import GIS
 from arcgis.features import FeatureLayer
 
 # Connect to ArcGIS Online
-gis = GIS("https://www.arcgis.com", "coreydondero_CWI", "")
+gis = GIS("https://www.arcgis.com", "USERNAME", "PASSWORD")
 
 # Find the layer you want to export data from
 feature_layer_item = gis.content.search("title:Duck Survey_results", item_type="Feature Layer")[0]
