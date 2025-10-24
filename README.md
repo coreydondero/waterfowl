@@ -1,4 +1,4 @@
-# I wrote this workflow to display observations of waterfowl collected with a survey123 app.  
+# I wrote this workflow to display observations of waterfowl collected with a Survey123 app.  
 
 ## Survey123  
 
