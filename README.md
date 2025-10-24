@@ -6,7 +6,7 @@ The excel file `Duck Survey.xlsx` contains the necessary data to create the surv
 
 ## Downloading survey data  
 
-This project uses the Python GIS API to pull data from my ArcGIS Online portal. The python script is called `download_waterfowl.py`. The username and password have been replaced with placeholder values. To automate that python script I have written a shell script (`autodownload.sh`) for linux Ubuntu, which starts a Python environment, runs the Python script, closes the environment, and then unzips the resulting compressed file.  
+This project uses the Python GIS API to pull data from my ArcGIS Online portal. The python script is called `download_waterfowl.py`. The username and password have been replaced with placeholder values. To automate that python script I have written a shell script (`autodownload.sh`) for linux Ubuntu, which starts a Python environment, runs the Python script, closes the environment, and then unzips the resulting compressed file. This script can be automated with CRON.
 
 ## Displaying data
 
